@@ -51,7 +51,7 @@ and interact programmatically with Orion testnet
 
 ## Cross-Chain Architecture
 
-![Cross-Chain Architecture](https://github.com/InfoCorp-Technologies/orion-testnet-private/blob/master/cross-chain-arch.png "Cross-Chain Architecture")
+![Cross-Chain Architecture](https://github.com/InfoCorp-Technologies/orion-testnet/blob/master/cross-chain-arch.png "Cross-Chain Architecture")
 
 ## Contracts
 
@@ -59,7 +59,7 @@ and interact programmatically with Orion testnet
   * This contract starts with an initial set of fixed validators. Existing Validators can add or remove block issuing permission.
 
 * **Operation**
-  * It is used to plan and execute chain forks. Validator nodes receives the information and they can vote whether to accept and approve the fork plan or not. 
+  * It is used to plan and execute chain forks. Validator nodes receives the information and they can vote whether to accept and approve the fork plan or not.
 
 * **Whitelist**
   * This contract provides a whitelisting mechanism to include or not addressess that can peform certain type of transactions.

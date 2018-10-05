@@ -1,19 +1,17 @@
 {
-  "name": "orion-testnet-private",
+  "name": "orion-testnet",
   "version": "1.0.0",
   "description": "![Sentinel Chain](https://cryptoindex.co/coinlogo/sentinel-chain.png \"Sentinel Chain\")",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "flatten-validator": "truffle-flattener ./contracts/validator-contracts/ImmediateSet.sol > ./contracts/ImmediateSet.sol"
+    "flatten": "sh flatten.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/InfoCorp-Technologies/sentinel-chain-network.git"
+    "url": "git+https://github.com/InfoCorp-Technologies/orion-testnet.git"
   },
   "author": "InfoCorp",
   "dependencies": {
-    "truffle-assertions": "^0.3.1",
     "truffle-flattener": "^1.2.5",
     "zeppelin-solidity": "^1.7.0"
   },
@@ -35,7 +33,7 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/InfoCorp-Technologies/orion-testnet-private/issues"
+    "url": "https://github.com/InfoCorp-Technologies/orion-testnet/issues"
   },
-  "homepage": "https://github.com/InfoCorp-Technologies/orion-testnet-private#readme"
+  "homepage": "https://github.com/InfoCorp-Technologies/orion-testnet#readme"
 }

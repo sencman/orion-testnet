@@ -27,6 +27,3 @@ min_gas_price = 8100000000 #min gas price in WEI per GAS unit (0.0000000081 Ethe
 logging = "external_tx=debug,network=info,own_tx=debug,poa=info,txqueue=debug"
 log_file = "parity-validator.log"
 color = true
-
-
-
